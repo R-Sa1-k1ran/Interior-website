@@ -1,13 +1,13 @@
 import React,{useState} from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import CustomNavbar from './Components/Navbar';
-import Home from './Components/Home';
-import Menu from './Components/Menu';
-import Location from './components/Location';
-import About from './components/About';
-import Contact from './Components/Contact';
-import Login from './components/Login';
-import Signup from './components/Signup';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Location from './pages/Location';
+import Login from './pages/Login';
+import Menu from './pages/Menu';
+import CustomNavbar from './components/Navbar'
+import Signup from './pages/Signup';
 import './App.css';
 
 const App = () => {
